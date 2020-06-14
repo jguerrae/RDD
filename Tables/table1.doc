@@ -1,4 +1,6 @@
 {\rtf1\fs24
+\pard\qc
+Regression Discontinuity Estimates for the Effect of Exceeding BAC Thresholds on Predetermined Characteristics\par
 \trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx1872\clbrdrt\brdrs\cellx3312\clbrdrt\brdrs\cellx4752\clbrdrt\brdrs\cellx6192\clbrdrt\brdrs\cellx7632
 \ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\row
 \trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3312\cellx4752\cellx6192\cellx7632
@@ -8,11 +10,15 @@
 \ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
 \ql dui\cell\qc 0.0307***\cell\qc 0.00271\cell\qc -7.787***\cell\qc -0.219***\cell\row
 \ql \cell\qc (0.00729)\cell\qc (0.00617)\cell\qc (0.204)\cell\qc (0.00627)\cell\row
+\ql bac1\cell\qc 0.218**\cell\qc 0.154*\cell\qc -56.36***\cell\qc -1.540***\cell\row
+\ql \cell\qc (0.108)\cell\qc (0.0917)\cell\qc (3.038)\cell\qc (0.0932)\cell\row
+\ql duibac1\cell\qc -0.311***\cell\qc 0.0170\cell\qc 83.40***\cell\qc 2.656***\cell\row
+\ql \cell\qc (0.110)\cell\qc (0.0933)\cell\qc (3.089)\cell\qc (0.0948)\cell\row
 \ql Constant\cell\qc 0.773***\cell\qc 0.835***\cell\qc 38.57***\cell\qc 0.201***\cell\row
 \ql \cell\qc (0.00655)\cell\qc (0.00555)\cell\qc (0.184)\cell\qc (0.00564)\cell\row
 \ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
 \ql Observations\cell\qc 214,558\cell\qc 214,558\cell\qc 214,558\cell\qc 214,558\cell\row
-\ql Mean\cell\qc 0.789\cell\qc 0.789\cell\qc 0.789\cell\qc 0.789\cell\row
+\ql Mean\cell\qc 0.789\cell\qc 0.861\cell\qc 34.957\cell\qc 0.354\cell\row
 \trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx6192\clbrdrb\brdrs\cellx7632
 \ql Controls\cell\qc NO\cell\qc NO\cell\qc NO\cell\qc NO\cell\row
 \pard\qc

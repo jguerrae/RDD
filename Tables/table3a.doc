@@ -1,0 +1,29 @@
+{\rtf1\fs24
+\pard\qc
+Regression Discontinuity Estimates for the Effect of Exceeding the 0.08 BAC Threshold on Recidivism\par
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx1872\clbrdrt\brdrs\cellx3600\clbrdrt\brdrs\cellx5328\clbrdrt\brdrs\cellx7056
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3600\cellx5328\cellx7056
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3600\clbrdrb\brdrs\cellx5328\clbrdrb\brdrs\cellx7056
+\ql VARIABLES\cell\qc PANEL A (1)\cell\qc PANEL A (2)\cell\qc PANEL A (3)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3600\cellx5328\cellx7056
+\ql \cell\qc \cell\qc \cell\qc \cell\row
+\ql dui\cell\qc -0.0273***\cell\qc -0.0591***\cell\qc 0.0298\cell\row
+\ql \cell\qc (0.00403)\cell\qc (0.0152)\cell\qc (0.0709)\cell\row
+\ql bac1\cell\qc 0.321***\cell\qc -0.0429\cell\qc -0.0429\cell\row
+\ql \cell\qc (0.0748)\cell\qc (0.187)\cell\qc (0.187)\cell\row
+\ql duibac1\cell\qc \cell\qc 0.438**\cell\qc -1.265\cell\row
+\ql \cell\qc \cell\qc (0.204)\cell\qc (1.346)\cell\row
+\ql duibac1q\cell\qc \cell\qc \cell\qc 8.014\cell\row
+\ql \cell\qc \cell\qc \cell\qc (6.276)\cell\row
+\ql Constant\cell\qc 0.0853***\cell\qc 0.109***\cell\qc 0.109***\cell\row
+\ql \cell\qc (0.00672)\cell\qc (0.0131)\cell\qc (0.0131)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 89,967\cell\qc 89,967\cell\qc 89,967\cell\row
+\ql Mean\cell\qc 0.0984\cell\qc 0.0984\cell\qc 0.0984\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3600\clbrdrb\brdrs\cellx5328\clbrdrb\brdrs\cellx7056
+\ql Controls\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

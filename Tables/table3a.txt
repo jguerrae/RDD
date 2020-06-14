@@ -1,0 +1,20 @@
+Regression Discontinuity Estimates for the Effect of Exceeding the 0.08 BAC Threshold on Recidivism			
+	(1)	(2)	(3)
+VARIABLES	PANEL A (1)	PANEL A (2)	PANEL A (3)
+			
+dui	-0.0273***	-0.0591***	0.0298
+	(0.00403)	(0.0152)	(0.0709)
+bac1	0.321***	-0.0429	-0.0429
+	(0.0748)	(0.187)	(0.187)
+duibac1		0.438**	-1.265
+		(0.204)	(1.346)
+duibac1q			8.014
+			(6.276)
+Constant	0.0853***	0.109***	0.109***
+	(0.00672)	(0.0131)	(0.0131)
+			
+Observations	89,967	89,967	89,967
+Mean	0.0984	0.0984	0.0984
+Controls	YES	YES	YES
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
