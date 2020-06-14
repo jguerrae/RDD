@@ -65,23 +65,23 @@ graph export "C:\Users\Jorge Guerra\Desktop\CI\RDD\Figures\cmogram_aged_l.png", 
 
 cd "C:\Users\Jorge Guerra\Desktop\CI\RDD\Tables"
 reg recidivism dui bac1  male white acc aged if bac1>0.03 & bac1<0.13, robust
-outreg2 using table3a.doc, replace title("Regression Discontinuity Estimates for the Effect of Exceeding the 0.08 BAC Threshold on Recidivism") ctitle(PANEL A (1)) addtext(Mean, 0.0984, Controls, YES) keep(bac1 dui) nor2
+outreg2 using table3a.doc, replace title("Regression Discontinuity Estimates for the Effect of Exceeding the 0.08 BAC Threshold on Recidivism") ctitle(PANEL A (1')) addtext(Mean, 0.0984, Controls, YES) keep(bac1 dui) nor2
 
 reg recidivism dui bac1  duibac1 male white acc aged if bac1>0.03 & bac1<0.13, robust
-outreg2 using table3a.doc, append ctitle(PANEL A (2)) addtext(Mean, 0.0984, Controls, YES) keep(bac1 dui duibac1) nor2
+outreg2 using table3a.doc, append ctitle(PANEL A (2')) addtext(Mean, 0.0984, Controls, YES) keep(bac1 dui duibac1) nor2
 
 reg recidivism dui bac1 duibac1 duibac1q male white acc aged if bac1>0.03 & bac1<0.13, robust
-outreg2 using table3a.doc, append ctitle(PANEL A (3)) addtext(Mean, 0.0984, Controls, YES) keep(bac1 bac1q dui duibac1 duibac1q) nor2
+outreg2 using table3a.doc, append ctitle(PANEL A (3')) addtext(Mean, 0.0984, Controls, YES) keep(bac1 bac1q dui duibac1 duibac1q) nor2
 
 
 reg recidivism dui bac1  male white acc aged if bac1>0.055 & bac1<0.105, robust
-outreg2 using table3b.doc, replace ctitle(PANEL B (1)) addtext(Mean, 0.0863, Controls, YES) keep(bac1 dui) nor2
+outreg2 using table3b.doc, replace ctitle(PANEL B (1')) addtext(Mean, 0.0863, Controls, YES) keep(bac1 dui) nor2
 
 reg recidivism dui bac1 duibac1 male white acc aged if bac1>0.055 & bac1<0.105, robust
-outreg2 using table3b.doc, append ctitle(PANEL B (2)) addtext(Mean, 0.0863, Controls, YES) keep(bac1 dui duibac1) nor2
+outreg2 using table3b.doc, append ctitle(PANEL B (2')) addtext(Mean, 0.0863, Controls, YES) keep(bac1 dui duibac1) nor2
 
 reg recidivism dui bac1 duibac1 duibac1q male white acc aged if bac1>0.055 & bac1<0.105, robust
-outreg2 using table3b.doc, append ctitle(PANEL B (3)) addtext(Mean, 0.0863, Controls, YES) keep(bac1 bac1q dui duibac1 duibac1q) nor2
+outreg2 using table3b.doc, append ctitle(PANEL B (3')) addtext(Mean, 0.0863, Controls, YES) keep(bac1 bac1q dui duibac1 duibac1q) nor2
 
 *8
 cd "C:\Users\Jorge Guerra\Desktop\CI\RDD\Figures"
